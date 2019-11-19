@@ -1,0 +1,42 @@
+.big-button {
+    background-color: $bright-purple;
+    border: none;
+    border-bottom: .6rem solid darken($bright-purple, 10%);
+    color: white;
+    font-size: $m-size-md;
+    font-weight: bold;
+    margin-bottom: $m-size-lg;
+    padding: 2.4rem;
+    width: 100%;
+}
+
+.big-button:disabled {
+    opacity: .5;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+}
+// smaller button
+.button {
+    background-color: $bright-purple;
+    border: none;
+    border-bottom: .3rem solid darken($bright-purple, 10%);
+    color: white;
+    font-size: 500;
+    padding: $s-size;
+}
+
+
+// BEM
+
+.button--link {
+    background: none;
+    border: none;
+    color: $off-white;
+    padding: 0;
+}
