@@ -1,7 +1,7 @@
 .header {
     background:  $off-black;
     color: white;
-    margin-bottom: $m-size-lg;
+    margin-bottom: $m-size-sm;
     padding: $m-size-sm 0;
 
 }
@@ -17,3 +17,9 @@
     font-weight: 500;
     margin: 0;
 }
+
+@media (min-width: $desktop-breakpoint) {
+    .header {
+        margin-bottom: $m-size-lg;
+    }
+ }

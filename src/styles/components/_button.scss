@@ -6,7 +6,7 @@
     color: white;
     font-size: $m-size-md;
     font-weight: bold;
-    margin-bottom: $m-size-lg;
+    margin-bottom: $m-size-sm;
     padding: 2.4rem;
     width: 100%;
 }
@@ -41,3 +41,9 @@ button:disabled {
     color: $off-white;
     padding: 0;
 }
+
+@media (min-width: $desktop-breakpoint) {
+    .big-button {
+        margin-bottom: $m-size-lg;
+    }
+ }

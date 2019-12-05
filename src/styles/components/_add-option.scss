@@ -5,8 +5,10 @@
     padding: 0 $m-size-sm;
 }
 
+// Add Option form
 .form {
     display: flex;
+    flex-direction: column;
     padding: $m-size-sm;
 }
 
@@ -16,6 +18,15 @@
     color: $off-white;
     border-bottom: .3rem solid darken($dark-blue, 10%);
     flex-grow: 1;
-    margin-right: $s-size;
+    margin: 0 0 $s-size 0;
     padding: $s-size;
 }
+ @media (min-width: $desktop-breakpoint) {
+    .form {
+        flex-direction: row;
+    }
+
+    .form-input {
+    margin: 0 $s-size 0 0;
+    }
+ }
