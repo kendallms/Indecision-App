@@ -1,5 +1,5 @@
 .add-option-error {
-    color: $off-white;
+    color: $light-pink;
     font-style: italic;
     margin: $m-size-sm 0;
     padding: 0 $m-size-sm;
@@ -15,7 +15,7 @@
 .form-input {
     background: $dark-blue;
     border: none;
-    color: $off-white;
+    color: $light-pink;
     border-bottom: .3rem solid darken($dark-blue, 10%);
     flex-grow: 1;
     margin: 0 0 $s-size 0;
